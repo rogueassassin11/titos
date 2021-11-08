@@ -29,16 +29,16 @@ Affordable prices: We make sure our meals are always a bang for one's buck.
 
 [Photos of customers included]
 
-Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
-The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
-Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
+I stumbled on this undiscovered gem right in our neighboorhood. Everything was just so yummy. The experience was heavenly as I was served a meal fit for God himself. Easily earned their 5 stars! (Elias Ainsworth)
+My taste buds are still tingling from our last visit! The food was flavorful, savory, and succulent. This is definitely a spot I'll be frequenting. (Chise Hatori)
+Best experience ever! This was one of the best mouth-watering Gotos I've had grace my taste buds in a long time.(Lindel Lindenbaum)
+I have been here several times before. Everything I tried was bursting with flavor. It was much better than I expected. (Angelica Barley)
 
 ### Contact information
 
-Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
-Phone: 415-201-6370
-Email: hello@omnifood.com
+Address: 1938 Cliffside Drive, Somers, Iowa
+Phone: 607-478-7570
+Email: hello@titos.com
 
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 

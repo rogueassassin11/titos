@@ -26,8 +26,8 @@
 
       Primary: #b46d36
       Secondary: #efbd93
-      Tints:
-      Shades:
+      Tints: #f8f0eb, #e9d3c3
+      Shades: #a26231
       Accents:
       Grey: #888, #767676 lightest gray on white, #777, #555, #333, #6f6f6f, #aaa
 
@@ -56,4 +56,86 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 -> percentage of user's browser font-size*/
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* does not work on safari and edge */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  overflow-x: hidden;
+}
+
+/***********************/
+/* REUSABLE COMPONENTS
+/***********************/
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  color: #f8f0eb;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  text-decoration: none;
+  display: inline-block;
+
+  /* put transition on the original state */
+  transition: all 0.3s;
+
+  /* only for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #b46d36;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #a26231;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #f8f0eb;
+
+  /* trick to add border inside so layout does not move*/
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/* HELPER CLASSES */
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
