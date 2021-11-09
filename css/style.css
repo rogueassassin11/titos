@@ -1,10 +1,65 @@
 /***********************/
-/* REUSABLE COMPONENTS
-/***********************/
-
-/***********************/
 /* HEADER
 /***********************/
+
+.header {
+  display: flex;
+
+  height: 9.8rem;
+  width: 100%;
+  padding: 0 4.8rem;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.8rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+  height: 9.8rem;
+}
+
+/***********************/
+/* NAVIGATION
+/***********************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #f8f0eb;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #a26231;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #b46d36;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #a26231;
+}
 
 /***********************/
 /* HERO
