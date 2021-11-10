@@ -109,3 +109,61 @@
   margin-bottom: 4.8rem;
   color: #f8f0eb;
 }
+
+/**********************************/
+/* FEATURED IN (NOTED BY COMPANIES)
+/**********************************/
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img,
+.fodor {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+/**********************************/
+/* PHILOSOPHY (FEATURES)
+/**********************************/
+
+.section-philosophy {
+  padding: 9.6rem 0;
+}
+
+.feature-icon {
+  color: #b46d36;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}

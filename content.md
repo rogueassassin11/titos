@@ -15,9 +15,10 @@ As featured in: Tripadvisor, Lonely Planet, Fodor's Travel
 
 ### The Tito's Philosophy (should have icons)
 
-Enjoy food like never before: Great food with great conversations in our homey space are our motto.
+Enjoy food: Great food with great conversations in our homey space are our motto.
 Naturally fresh: Our meals are prepared with the freshest ingredients supported by local farmers.
 Affordable prices: We make sure our meals are always a bang for one's buck.
+Delivery available: Wherever you are, we can bring to you your bowl of warm goodness.
 
 ### The Tito's Story
 
