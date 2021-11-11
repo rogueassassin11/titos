@@ -22,9 +22,13 @@ Delivery available: Wherever you are, we can bring to you your bowl of warm good
 
 ### The Tito's Story
 
-### Photo gallery
+Tito's is a small pop-up restaurant created by Chef Ericson Dee and his family. It's mission is to serve hearty meals like goto, molo, and fish soup that can warm your soul at affordable prices. The ingredients used are sourced from local farmers and are always fresh. You may enjoy our homey space with your friends or family, or you can choose to have your bowl of warm goodness delivered to the comfort of your own home.
 
-[Use the 12 photos we provided]
+No matter how, we commit to cooking hearty meals that are made straight from the heart.
+
+### Our Food
+
+We specialize in warm and savory meals available at any time of day. This is packed with nutrition that is good for the body.
 
 ### Here's what others say (customer testimonials)
 

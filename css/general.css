@@ -62,7 +62,7 @@ html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.625 -> percentage of user's browser font-size*/
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
   /* does not work on safari and edge */
   /* scroll-behavior: smooth; */
@@ -74,7 +74,7 @@ body {
   font-weight: 400;
   color: #555;
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /***********************/
@@ -177,6 +177,10 @@ body {
 }
 
 /* HELPER CLASSES */
+
+.text-right {
+  text-align: right;
+}
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
