@@ -181,12 +181,13 @@
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  height: 48rem;
 }
 
 .story-img-box img {
   display: block;
   width: 100%;
-  height: 25%;
+  height: 40%;
   transition: all 0.4s;
 }
 
