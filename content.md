@@ -65,6 +65,6 @@ Careers
 - Tito's Philosophy
 - Tito's Story
 - Our Food
-- Here's what others say
+- Here's what people say
 - CTA
 - Footer
