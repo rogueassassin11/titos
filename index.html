@@ -14,6 +14,18 @@
       rel="stylesheet"
     />
 
+    <!-- SLICK CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+
     <!-- OWN CSS -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -261,6 +273,95 @@
           </div>
         </div>
       </section>
+
+      <section class="section-testimonials">
+        <div class="container">
+          <h2 class="heading-secondary text-center">Here's what people say</h2>
+        </div>
+        <div class="container">
+          <div class="slider">
+            <!-- TESTIMONIAL 1 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="testimonial-description">
+                  I stumbled on this undiscovered gem right in our
+                  neighboorhood. The experience was heavenly as I was served a
+                  meal fit for God himself!
+                </p>
+                <footer class="blockquote-footer">
+                  <cite
+                    ><p>&mdash; Elias Ainsworth</p>
+                    <img
+                      src="img/elias.jpg"
+                      alt="Photo of Elias Ainsworth"
+                      class="testimonial-img"
+                  /></cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <!-- TESTIMONIAL 2 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="testimonial-description">
+                  My taste buds are still tingling from our last visit! The food
+                  was flavorful, savory, and succulent. This is definitely a
+                  spot I'll be frequenting.
+                </p>
+                <footer class="blockquote-footer">
+                  <cite
+                    ><p>&mdash; Chise Hatori</p>
+                    <img
+                      src="img/chise.jpg"
+                      alt="Photo of Chise Hatori"
+                      class="testimonial-img"
+                  /></cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <!-- TESTIMONIAL 3 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="testimonial-description">
+                  Best experience ever! This was one of the best mouth-watering
+                  Gotos I've had grace my taste buds in a long time. Everything
+                  was yummy!
+                </p>
+                <footer class="blockquote-footer">
+                  <cite
+                    ><p>&mdash; Lindel Lindenbaum</p>
+                    <img
+                      src="img/lindel.jpg"
+                      alt="Photo of Lindel Lindenbaum"
+                      class="testimonial-img"
+                  /></cite>
+                </footer>
+              </blockquote>
+            </div>
+
+            <!-- TESTIMONIAL 4 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="testimonial-description">
+                  I have been here several times before. Everything I tried was
+                  bursting with flavor. It was much better than I expected. I
+                  will come back again and again!
+                </p>
+                <footer class="blockquote-footer">
+                  <cite
+                    ><p>&mdash; Angelica Barley</p>
+                    <img
+                      src="img/angelica.jpg"
+                      alt="Angelica Barley"
+                      class="testimonial-img"
+                  /></cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ION ICONS -->
@@ -272,5 +373,40 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- JQUERY -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <!-- SLICK JS -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- CUSTOM SCRIPT -->
+    <script>
+      $(document).ready(function () {
+        //Get the current year for the copyright
+        $("#year").text(new Date().getFullYear());
+
+        //Slick Slider init
+        $(".slider").slick({
+          arrows: false,
+          dots: true,
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 5000,
+        });
+      });
+    </script>
   </body>
 </html>
