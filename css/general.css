@@ -26,8 +26,8 @@
 
       Primary: #b46d36
       Secondary: #efbd93
-      Tints: #f8f0eb, #e9d3c3
-      Shades: #a26231
+      Tints: #f8f0eb, #e9d3c3, #bc7c4a
+      Shades: #a26231, #120b05
       Accents:
       Grey: #888, #767676 lightest gray on white, #777, #555, #333, #6f6f6f, #aaa
 
@@ -132,6 +132,12 @@ body {
   margin-bottom: 6.4rem;
 }
 
+.heading-tertiary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -176,6 +182,17 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #120b05;
+  color: #f8f0eb;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #120b05;
+}
+
 /* HELPER CLASSES */
 
 .text-right {
@@ -188,4 +205,8 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2.4rem !important;
 }

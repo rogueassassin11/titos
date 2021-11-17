@@ -294,3 +294,61 @@
 /* .slick-dots li button {
   display: none;
 } */
+
+/**********************************/
+/* CTA 
+/**********************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+  background-color: #fff;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* background-color: #b46d36; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  overflow: hidden;
+  background-image: linear-gradient(to left bottom, #bc7c4a, #b46d36);
+}
+
+.cta-img-box {
+  background-image: url(../img/eating1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.4rem;
+  column-gap: 3.2rem;
+  margin: 3.2rem 3.2rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #120b05;
+}
+
+.cta-form input,
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #f8f0eb;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
