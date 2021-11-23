@@ -1,0 +1,48 @@
+/* rem and em do not depend on html font-size in media queries, instead 1rem = 1em = 16px; */
+
+/***********************/
+/* BELOW 1997px (Smaller desktops)
+  1197px / 16 = 75em
+/***********************/
+
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+/***********************/
+/* BELOW 1111px (Smaller desktops)
+  1111px / 16 = 69.5em
+/***********************/
+
+@media (max-width: 69.5em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
+/***********************/
+/* BELOW 1040px (landscape tablets)
+  1040px / 16 = 65em
+/***********************/
+
+@media (max-width: 65em) {
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+/***********************/
+/* BELOW 1002px (landscape tablets)
+  1002px / 16 = 65em
+/***********************/
+
+@media (max-width: 62.6em) {
+  html {
+    /* 8px / 16px */
+    font-size: 50%;
+  }
+}
