@@ -153,7 +153,6 @@
   width: 3.2rem;
   height: 3.2rem;
   margin-bottom: 3.2rem;
-  padding: 1.6rem;
 }
 
 .feature-title {
@@ -180,8 +179,8 @@
 .story-img-box {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
-  height: 48rem;
+  gap: 4.8rem;
+  /* height: 48rem; */
 }
 
 .story-img-box img {

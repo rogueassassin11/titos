@@ -45,4 +45,23 @@
     /* 8px / 16px */
     font-size: 50%;
   }
+
+  .feature-icon {
+    margin-bottom: 2.4rem;
+  }
+
+  .meal-title {
+    margin-bottom: 2.4rem;
+  }
+}
+
+/***********************/
+/* BELOW 888px (portrait tablets)
+  888px / 16 = 55.5em
+/***********************/
+
+@media (max-width: 55.5em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
