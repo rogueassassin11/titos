@@ -179,7 +179,8 @@
 .story-img-box {
   display: flex;
   flex-direction: column;
-  gap: 4.8rem;
+  justify-content: space-around;
+  gap: 3.2rem;
   /* height: 48rem; */
 }
 

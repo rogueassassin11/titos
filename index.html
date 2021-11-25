@@ -511,6 +511,7 @@
         $("#year").text(new Date().getFullYear());
 
         //Slick Slider init
+
         $(".slider").slick({
           arrows: false,
           dots: true,
@@ -519,6 +520,18 @@
           slidesToScroll: 2,
           autoplay: true,
           autoplaySpeed: 5000,
+          //responsive 733px
+          responsive: [
+            {
+              breakpoint: 733,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+          ],
         });
       });
     </script>
