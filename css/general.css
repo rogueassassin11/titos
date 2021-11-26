@@ -74,7 +74,8 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* overflow-x: hidden; */
+  /* only works if there is nothing absolutely positioned in relation to body*/
+  overflow-x: hidden;
 }
 
 /***********************/
