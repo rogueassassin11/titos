@@ -510,43 +510,10 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
 
+    <!-- SMOOTH SCROLLING FIX FOR SAFARI -->
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
     <!-- CUSTOM SCRIPT -->
-    <script>
-      $(document).ready(function () {
-        //Get the current year for the copyright
-        $("#year").text(new Date().getFullYear());
-
-        //Slick Slider init
-        $(".slider").slick({
-          arrows: false,
-          dots: true,
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 5000,
-          //responsive 733px
-          responsive: [
-            {
-              breakpoint: 733,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true,
-              },
-            },
-          ],
-        });
-
-        //making mobile nav work
-        const btnNavEl = document.querySelector(".btn-mobile-nav");
-        const headerEl = document.querySelector(".header");
-
-        btnNavEl.addEventListener("click", function () {
-          headerEl.classList.toggle("nav-open");
-        });
-      });
-    </script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
