@@ -58,4 +58,27 @@ $(document).ready(function () {
         headerEl.classList.toggle("nav-open");
     });
   });
+
+  //Sticky navigation
+  const sectionHeroEl = document.querySelector(".section-hero");
+
+  const obs = new IntersectionObserver(
+    function (entries) {
+      const ent = entries[0];
+
+      if (ent.isIntersecting === false) {
+        document.querySelector("body").classList.add("sticky");
+      }
+
+      if (ent.isIntersecting === true) {
+        document.querySelector("body").classList.remove("sticky");
+      }
+    },
+    {
+      //in the viewport
+      root: null,
+      threshold: 0, //fires as soon as hero section moves out of viewport
+    }
+  );
+  obs.observe(sectionHeroEl);
 });
